@@ -4,6 +4,8 @@ const express = require('express')
 const cors = require('cors')
 require('dotenv').config()
 
+const validator = require('validator')
+
 //Routes
 const authRouter = require('./Routes/auth')
 // const Internship = require('./Model/Internship')
